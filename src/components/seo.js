@@ -26,7 +26,6 @@ function SEO({ title, description, slug, isBlogPost }) {
   // }
 
   if (defaults.siteUrl === '') {
-    console.error('Please set a siteUrl in your site metadata!');
     return null;
   }
 
@@ -38,7 +37,7 @@ function SEO({ title, description, slug, isBlogPost }) {
   let ogimage = `${defaults.siteUrl}${socialBanner}`;
 
   if (isBlogPost) {
-    title = title + ' | Anurag Hazra';
+    title = title + ' | Justice Arthur';
     ogimage = `${defaults.siteUrl}${slug}/social-banner-img.jpg`;
   }
   // console.log({ url, title, description, twitter, ogimage, imageWidth, imageHeight })
