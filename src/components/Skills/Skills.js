@@ -70,7 +70,7 @@ const Skills = () => (
         <FontAwesomeIcon icon={['fab', 'html5']} size="5x" />
         <FontAwesomeIcon icon={['fab', 'js']} size="5x" />
         <FontAwesomeIcon icon={['fab', 'react']} size="5x" />
-        <FontAwesomeIcon icon={['fab', 'node']} size="5x" />
+        <FontAwesomeIcon icon={['fab', 'laravel']} size="5x" />
       </Flex>
 
       <Hidden md xs sm>

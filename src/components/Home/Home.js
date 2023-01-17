@@ -14,36 +14,37 @@ import { Card, CardIcon, CardText, CardTitle } from '@common/Card';
 
 const ThingsILove = () => (
   <Flex justify="space-between" align="center">
+
+      <Card>
+          <CardIcon>
+              <FontAwesomeIcon icon="code" />
+          </CardIcon>
+          <CardTitle>BackEnd</CardTitle>
+          <CardText>
+              I'm more backend end focused. I just love to architect applications from scratch.
+          </CardText>
+      </Card>
+
     <Card>
       <CardIcon>
         <FontAwesomeIcon icon="code" />
       </CardIcon>
       <CardTitle>FrontEnd</CardTitle>
       <CardText>
-        I'm more front end focused and love to work with Reactjs as well as pure
+        I love to work with (Reactjs and VueJs) as well as pure
         HTML, CSS.
       </CardText>
     </Card>
 
-    <Card>
-      <CardIcon>
-        <FontAwesomeIcon icon={['fab', 'js']} />
-      </CardIcon>
-      <CardTitle>Javascript</CardTitle>
-      <CardText>
-        I just extremely love javascript, I can’t even express how much I love
-        javascript with just a few lines.
-      </CardText>
-    </Card>
+
 
     <Card>
       <CardIcon>
-        <FontAwesomeIcon icon="paint-brush" />
+        <FontAwesomeIcon icon={['fas', 'futbol']} />
       </CardIcon>
-      <CardTitle>Creative Coding</CardTitle>
+      <CardTitle>Football</CardTitle>
       <CardText>
-        I love creative coding because I do both coding & designing. making
-        beautiful art with code is very satisfying to me.
+        I am a die hard Chelsea fan!
       </CardText>
     </Card>
   </Flex>
@@ -58,8 +59,8 @@ const Home = () => {
         {/* <Parallax y={[50, -50]} className="home__text"> */}
         <div className="home__text">
           <p>Hello, I’m</p>
-          <h1>ANURAG HAZRA</h1>
-          <p className="adjust">CREATIVE FRONT-END WEB DEVELOPER</p>
+          <h1>JUSTICE ARTHUR</h1>
+          <p className="adjust">FULLSTACK DEVELOPER</p>
 
           <div className="home__CTA">
             <Button className="cta" as="a" href="#">
@@ -70,17 +71,17 @@ const Home = () => {
               <IconLink
                 label="github"
                 icon={['fab', 'github']}
-                href="//github.com/anuraghazra"
+                href="//github.com/justicea83"
               />
               <IconLink
                 label="twitter"
                 icon={['fab', 'twitter']}
-                href="//twitter.com/anuraghazru"
+                href="//twitter.com/justicea83"
               />
               <IconLink
-                label="codepen"
-                icon={['fab', 'codepen']}
-                href="//codepen.io/anuraghazra"
+                label="linkedin"
+                icon={['fab', 'linkedin-in']}
+                href="//linkedin.com/in/justicea83"
               />
             </div>
           </div>

@@ -1,23 +1,23 @@
 const meta = {
   // Metadata
-  siteTitle: 'Anurag Hazra - Creative Web Designer',
+  siteTitle: 'Justice Arthur - Fullstack Developer',
   siteDescription:
-    'Anurag Hazra - Creative frontEnd web developer who loves javascript and modern web technologies.',
-  siteTitleAlt: 'Anurag Hazra',
-  siteShortName: 'Anurag Hazra',
-  siteUrl: 'https://anuraghazra.github.io', // No trailing slash!
+    'Justice Arthur - Fullstack developer who loves modern web technologies.',
+  siteTitleAlt: 'Justice Arthur',
+  siteShortName: 'Justice Arthur',
+  siteUrl: 'https://justicea83.github.io', // No trailing slash!
 };
 
 const social = {
   siteLogo: `src/static/logo.svg`,
   siteBanner: `${meta.siteUrl}/images/social-banner.png`,
-  twitter: '@anuraghazru',
+  twitter: '@justicea83',
 };
 
 const website = {
   ...meta,
   ...social,
-  disqusShortName: 'anuraghazra',
+  disqusShortName: 'justicea83',
   googleAnalyticsID: 'UA-119972196-1',
   // Manifest
   themeColor: '#6D83F2',

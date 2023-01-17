@@ -14,7 +14,7 @@ const NavDesktop = () => {
     <>
       <SLink smooth offset={-100} hashSpy={true} to="home">
         <Link className="logo" to="/">
-          <img src={logo} alt="Anurag Hazra" />
+          <img src={logo} alt="justice" />
         </Link>
       </SLink>
 
@@ -22,9 +22,6 @@ const NavDesktop = () => {
         <NavItems>
           <NavLinks NavItem={NavItem} />
 
-          <NavItem>
-            <Link to="/blog">blog</Link>
-          </NavItem>
           <NavItem>
             <ToggleSwitch />
           </NavItem>

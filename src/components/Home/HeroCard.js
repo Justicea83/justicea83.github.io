@@ -31,8 +31,8 @@ function copyToClipboard(str) {
 }
 
 export const CodeCard = () => {
-  const [text, setText] = useState(`new Date().getFullYear() - 2001;`);
-  const age = new Date().getFullYear() - 2001;
+  const [text, setText] = useState(`new Date().getFullYear() - 1996;`);
+  const age = new Date().getFullYear() - 1996;
   // trimed down polyfill of String.repeat
   const changeText = () => {
     let space = repeatString(' ', 54);
@@ -45,10 +45,10 @@ export const CodeCard = () => {
       </pre>
       <pre>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor() {'{'}</pre>
       <pre>
-        3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "<b>Anurag Hazra</b>";
+        3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "<b>Justice Arthur</b>";
       </pre>
       <pre>
-        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = ["<b>DESIGN</b>", "<b>DEV</b>"];
+        4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = ["<b>ARCHITECT</b>", "<b>DEV</b>"];
       </pre>
       <pre onClick={changeText}>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = {text}</pre>
       <pre>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {'}'}</pre>

@@ -16,24 +16,15 @@ const About = () => {
       <SkewBg />
       <AboutInfo>
         <div>
-          <Avatar src="hfest_avatar_2.jpg" />
+          <Avatar src="profile_pic.jpeg" />
         </div>
         <p>
-          Hi, I'm Anurag Hazra, a self-taught passionate FrontEnd developer from
-          India, currently working at{' '}
-          <a className="about__link" href="https://razorpay.com">
-            Razorpay
-          </a>{' '}
-          as a FrontEnd engineer. I've been building stuff on the web since when
-          I was in 6th standard, I've made countless side projects and I also
+          Hi, I'm Justice Arthur, a self-taught passionate Fullstack developer from
+          Ghana.
+          As a Fullstack engineer. I've been building stuff on the web since when
+          I was 2016, I've made countless side projects and I also
           posses magical powers of using react to build delightful user
           interfaces.
-          <br />
-          <br />I also love doing <b>open source</b> development, I actively
-          maintain various notable open source projects with over, <br />
-          <b>30k+ stars on GitHub</b> and <b>50m+ hits</b>. It gives me a
-          wonderful feeling of achievement and joy which I cannot explain in
-          words.
         </p>
       </AboutInfo>
 
